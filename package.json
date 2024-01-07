@@ -1,0 +1,14 @@
+{
+  "name": "amazon-clone",
+  "version": "1.0.0",
+  "description": "Amazon clone with TailwindCSS",
+  "main": "index.js",
+  "scripts": {
+    "start": "tailwindcss -i ./src/css/styles.css -o ./public/css/main.css --watch"
+  },
+  "author": "Davi Honorato",
+  "license": "MIT",
+  "devDependencies": {
+    "tailwindcss": "^3.4.1"
+  }
+}
